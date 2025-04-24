@@ -162,7 +162,7 @@
 }
 /* =========Sen============= */
 
-@font-face {
+/* @font-face {
     font-family: 'Sen';
     src: url('Sen/Sen-Regular.woff2') format('woff2'),
         url('Sen/Sen-Regular.woff') format('woff');
@@ -197,4 +197,4 @@
     font-style: normal;
     font-display: swap;
 }
-
+ */
