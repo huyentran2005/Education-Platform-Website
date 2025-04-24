@@ -314,5 +314,63 @@ header.fixed{
     margin-right: 18px;
 }
 
+/* =======Quote========= */
+.quote {
+    background: #2E2100;
+}
+.quote .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 96px 0px;
+}
+.quote .name{
+    margin: 18px 0px 4px;
+    color: #F7F7F7;
+    font-family: "Sen",sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height:  141.667% ;
+}
+.quote .information .desc{
+    width: 159px ;
+    margin-bottom: 28px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height:  185.714% ;
+}
+.quote .information + .desc{
+    position: relative;
+    width: 740px;
+    color: #FFF;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height:  153.846% ;
+}
+
+.quote .information + .desc::before{
+    content: url(./img/quote.svg);
+    display: inline-block;
+    position: absolute;
+    top:-30px;
+    left:-30px;
+}
+
+.quote .direct{
+    display:flex ;
+    gap:6px;
+}
+.direct .circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background: #634700; 
+}
+.direct .active{
+    background: #FFB900;
+}
+
 
 
