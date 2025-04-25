@@ -95,6 +95,9 @@ header.fixed{
     left:21px;
     bottom: 6px;
 }
+.action {
+    margin-left:49px ;
+}
 .action .btn{
     display: inline-block;
     min-width: 144px;
